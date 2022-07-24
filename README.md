@@ -2,6 +2,7 @@
 https://www.youtube.com/watch?v=PtQiiknWUcI
 <p>但是只有實做到大概4:00:00的部分</p>
 <p>後面影片作者直接把現成的theme的html直接套上去之後我就先暫停了</p>
+<br>
 <p>功能<p>
 <ul>
   <li>搜尋功能
@@ -14,15 +15,15 @@ https://www.youtube.com/watch?v=PtQiiknWUcI
   <li>個人資料(尚未完成更新資料的功能)
 </ul>
 
-首頁
-<img src="https://i.imgur.com/2eGlFcY.png">
-建立聊天室
-<img src="https://i.imgur.com/xFSDrfl.png">
-聊天室內容、留言
-<img src="https://i.imgur.com/QcflOXZ.png">
-個人頁面
-<img src="https://i.imgur.com/ZjxmvZY.png">
-登入
-<img src="https://i.imgur.com/Q9ZPRQd.png">
-註冊
-<img src="https://i.imgur.com/I2nOsZV.png">
+首頁<br>
+<img width=2000px src="https://i.imgur.com/2eGlFcY.png">
+建立聊天室<br>
+<img width=2000px src="https://i.imgur.com/xFSDrfl.png">
+聊天室內容、留言<br>
+<img width=2000px src="https://i.imgur.com/QcflOXZ.png">
+個人頁面<br>
+<img width=2000px src="https://i.imgur.com/ZjxmvZY.png">
+登入<br>
+<img width=2000px src="https://i.imgur.com/Q9ZPRQd.png">
+註冊<br>
+<img width=2000px src="https://i.imgur.com/I2nOsZV.png">
