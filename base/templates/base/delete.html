@@ -1,0 +1,12 @@
+{% extends 'main.html' %}
+
+{% block content %}
+
+<form method="POST" action="">
+    {% csrf_token %}
+    <p>你確定要刪除{{ obj }}？</p>
+    <a href="{{request.META.HTTP_REFERER}}">返回</a>
+    <input type="submit" value="是"/>
+</form>
+
+{% endblock content %}

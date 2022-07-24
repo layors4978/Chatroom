@@ -1,0 +1,15 @@
+<!-- for updating and creating a room -->
+{% extends 'main.html' %}
+
+{% block content %}
+
+<div>
+    <form method="POST" action="">
+        {% csrf_token %}
+        {{ form.as_p }}
+
+        <input type="submit" value="建立" />
+    </form>
+</div>
+
+{% endblock content %}

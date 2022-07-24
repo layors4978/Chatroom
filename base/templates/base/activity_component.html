@@ -1,0 +1,15 @@
+<h3>最新留言</h3>
+<hr>
+{% for comment in comments %}
+<div>
+    <small><a href="{% url 'profile' comment.user.id %}">@{{comment.user}}</a>  {{comment.created}}</small>
+    <small>回應了{{ comment.room }}</small>
+    <p>{{comment}}</p>
+
+    {% if request.user == comment.user %}
+    <a href="{% url 'delete_message' comment.id %}">刪除</a>
+    {% endif %}
+
+    <hr>
+</div>
+{% endfor %}

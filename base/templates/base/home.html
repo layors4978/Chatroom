@@ -1,0 +1,32 @@
+{% extends 'main.html' %}
+
+{% block content %}
+
+<style>
+    .home_container{
+        display:grid;
+        grid-template-columns: 1fr 3fr 1fr;
+    }
+</style>
+
+
+<div class="home_container">
+
+    <div>
+        {% include 'base/topics_component.html' %}
+    </div>
+
+    <div>
+        <h5>目前共有{{room_num}}個聊天室</h5>
+        <a href="{% url 'create_room' %}">建立聊天室</a>
+        <div>
+            {% include 'base/rooms_component.html' %}
+        </div>
+    </div>
+
+    <div>
+        {% include 'base/activity_component.html' %}
+    </div>
+</div>
+
+{% endblock content %}
