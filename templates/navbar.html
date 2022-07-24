@@ -1,0 +1,19 @@
+<a href="/">
+    <h1>LOGO</h1>
+</a>
+
+<form method="GET" action="{% url 'home' %}">
+    <input type="text" name="q" placeholder="搜尋聊天室...">
+</form>
+
+{% if request.user.is_authenticated %}
+
+<p>早安，吃早餐，{{request.user}}</p>
+<a href="{% url 'logout' %}">登出</a>
+
+{% else %}
+
+<a href="{% url 'login' %}">登入</a>
+{% endif %}
+
+<hr>
